@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button{
+  display: flex;
+  margin: 15px 0px;
+  background-color: rgb(78, 187, 78);
+  color: white;
+  height: 35px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(70, 228, 70);
+
+}
